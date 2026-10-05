@@ -1,13 +1,13 @@
-"""Load the curated public portfolio shared by the page and audit tools."""
+"""Load the generated public portfolio for the Pages build."""
 
+import json
 from pathlib import Path
 import re
-import tomllib
 from urllib.parse import urlparse
 
 
 ROOT = Path(__file__).resolve().parent.parent
-CATALOG = ROOT / "pages/projects.toml"
+CATALOG = ROOT / "pages/projects.json"
 NAME = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]*$")
 STATUSES = {"incubating", "active", "maintenance", "dormant", "archived"}
 TYPES = {"application", "service", "library", "documentation", "research"}
@@ -15,8 +15,11 @@ TAG = re.compile(r"^[a-z][a-z0-9-]*$")
 
 
 def load_projects():
-    with CATALOG.open("rb") as source:
-        projects = tomllib.load(source)["project"]
+    with CATALOG.open(encoding="utf-8") as source:
+        document = json.load(source)
+    if document.get("schema") != 1:
+        raise ValueError("Unsupported public catalog schema")
+    projects = document["project"]
     seen = set()
     for project in projects:
         name = project["name"]

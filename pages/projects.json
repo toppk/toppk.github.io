@@ -1,0 +1,211 @@
+{
+  "project": [
+    {
+      "branding_description": "Independent research into detecting watermarks in AI-generated text.",
+      "category": "Tools",
+      "name": "ccwatermark",
+      "pages_enabled": true,
+      "published": true,
+      "repo_description": "Detect Anthropic Watermarks",
+      "role": "lead",
+      "site_url": "https://toppk.github.io/ccwatermark/",
+      "status": "active",
+      "symbol": "◌",
+      "tags": [
+        "text",
+        "watermarks"
+      ],
+      "type": "research"
+    },
+    {
+      "branding_description": "A small health monitor for the machines that keep things running.",
+      "category": "Services",
+      "name": "sitescope",
+      "pages_enabled": true,
+      "published": true,
+      "repo_description": "Status Page with health monitoring for Servers, Certifications, Services, with agents, external probes, alerts, and history.",
+      "role": "lead",
+      "site_url": "https://toppk.github.io/sitescope/",
+      "status": "active",
+      "symbol": "◎",
+      "tags": [
+        "monitoring",
+        "web"
+      ],
+      "type": "service"
+    },
+    {
+      "branding_description": "A ChatGPT connector for IRC with per-user ZNC accounts.",
+      "category": "Experiments",
+      "name": "zircon",
+      "pages_enabled": true,
+      "published": true,
+      "repo_description": "ChatGPT plugin that bridges to IRC using MCP 2.0 Events, with per-user ZNC accounts and searchable history.",
+      "role": "lead",
+      "site_url": "https://toppk.github.io/zircon/",
+      "status": "active",
+      "symbol": "✳",
+      "tags": [
+        "irc",
+        "integration"
+      ],
+      "type": "service"
+    },
+    {
+      "branding_description": "A safety-minded command line for Trello and Tailscale.",
+      "category": "Tools",
+      "name": "omni",
+      "pages_enabled": true,
+      "published": true,
+      "repo_description": "A command line interface for Trello and Tailscale.  Safety-oriented, action-first CLI for service APIs, built for humans and agents.",
+      "role": "lead",
+      "site_url": "https://toppk.github.io/omni/",
+      "status": "active",
+      "symbol": "↗",
+      "tags": [
+        "cli",
+        "apis"
+      ],
+      "type": "application"
+    },
+    {
+      "branding_description": "Voice rooms that remember what happened in them.",
+      "category": "Services",
+      "name": "overheard",
+      "pages_enabled": true,
+      "published": true,
+      "repo_description": "Voice chat rooms with per-speaker recording and transcriptions provided upon completion.",
+      "role": "lead",
+      "site_url": "https://toppk.github.io/overheard/",
+      "status": "active",
+      "symbol": "◖",
+      "tags": [
+        "audio",
+        "web"
+      ],
+      "type": "service"
+    },
+    {
+      "branding_description": "An X11 terminal with xterm instincts and a Ghostty core.",
+      "category": "Systems",
+      "name": "revenant",
+      "pages_enabled": true,
+      "published": true,
+      "repo_description": "revenant is an X11 terminal emulator that looks, configures, and behaves like xterm, with libghostty-vt as its terminal core.",
+      "role": "lead",
+      "site_url": "https://toppk.github.io/revenant/",
+      "status": "active",
+      "symbol": "▣",
+      "tags": [
+        "desktop",
+        "terminal"
+      ],
+      "type": "application"
+    },
+    {
+      "branding_description": "A file index service for Linux applications.",
+      "category": "Services",
+      "name": "steward",
+      "pages_enabled": true,
+      "published": true,
+      "repo_description": "Linux filesystem index with path search, disk-usage trees, classification, and content IDs.",
+      "role": "lead",
+      "site_url": "https://toppk.github.io/steward/",
+      "status": "active",
+      "symbol": "▤",
+      "tags": [
+        "cli",
+        "desktop",
+        "service",
+        "linux"
+      ],
+      "type": "application"
+    },
+    {
+      "branding_description": "A different answer to who owns a terminal session.",
+      "category": "Systems",
+      "name": "termwire",
+      "pages_enabled": true,
+      "published": true,
+      "repo_description": "The missing session layer between shells and terminal windows — a per-user runtime that owns every PTY, with terminals as detachable views",
+      "role": "lead",
+      "site_url": "https://toppk.github.io/termwire/",
+      "status": "active",
+      "symbol": "⌁",
+      "tags": [
+        "terminal",
+        "pty"
+      ],
+      "type": "service"
+    },
+    {
+      "branding_description": "Exploring daylight, time zones, and the design of the clock.",
+      "category": "Experiments",
+      "name": "tzwars",
+      "pages_enabled": true,
+      "published": true,
+      "repo_description": "design the time",
+      "role": "lead",
+      "site_url": "https://toppk.github.io/tzwars/",
+      "status": "active",
+      "symbol": "☼",
+      "tags": [
+        "time",
+        "design"
+      ],
+      "type": "research"
+    },
+    {
+      "branding_description": "Matt Chapman's Window Managers for X, restored and republished.",
+      "category": "Guides",
+      "name": "xwinman",
+      "pages_enabled": true,
+      "published": true,
+      "repo_description": "A Guide to Window Managers",
+      "role": "contribution",
+      "site_url": "https://toppk.github.io/xwinman/",
+      "status": "maintenance",
+      "symbol": "▦",
+      "tags": [
+        "x11",
+        "restoration"
+      ],
+      "type": "documentation"
+    },
+    {
+      "branding_description": "A rewritten bcachefs documentation effort, building on the community wiki.",
+      "category": "Guides",
+      "name": "bcachefs-wiki",
+      "pages_enabled": true,
+      "published": true,
+      "repo_description": "website refresh project",
+      "role": "contribution",
+      "site_url": "https://bcachefs.bllue.org/",
+      "status": "dormant",
+      "symbol": "◈",
+      "tags": [
+        "storage",
+        "upstream"
+      ],
+      "type": "documentation"
+    },
+    {
+      "branding_description": "Contributions to the bcachefs tools and their public documentation.",
+      "category": "Systems",
+      "name": "bcachefs-tools",
+      "pages_enabled": false,
+      "published": true,
+      "repo_description": "http://bcachefs.org",
+      "role": "contribution",
+      "site_url": "https://bcachefs.org/",
+      "status": "maintenance",
+      "symbol": "▣",
+      "tags": [
+        "storage",
+        "upstream"
+      ],
+      "type": "application"
+    }
+  ],
+  "schema": 1
+}
