@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0f2147">
+  <meta name="description" content="Projects by toppk: tools, terminal systems, services, and technical writing.">
+  <title>toppk · projects and systems</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&amp;family=Jost:wght@400;500;600&amp;family=Michroma&amp;display=swap">
+  <link rel="stylesheet" href="./theme/horizon.css">
+  <link rel="stylesheet" href="./home.css">
+  <script>try { const theme = localStorage.getItem('horizon-theme'); if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme; } catch {}</script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to projects</a>
+  <header class="masthead">
+    <div class="masthead-bar">
+      <a class="brand" href="./"><span class="brand-symbol" aria-hidden="true">✳</span><span class="brand-name">toppk</span><span class="brand-tag">Projects &amp; systems</span></a>
+      <nav class="topnav" aria-label="Site"><a href="#projects">Projects</a><a href="#about">About</a><a href="https://github.com/toppk">GitHub</a><button class="theme-toggle" type="button" aria-label="Switch between light and dark" title="Light / dark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6-1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg></button></nav>
+    </div>
+    <div class="hero">
+      <div><p class="hero-eyebrow">Software · systems · documentation</p><h1>Useful ideas, carefully built.</h1><p class="hero-lede">I build developer tools, terminal systems, and small services, and help restore useful work from other communities. This directory distinguishes projects I lead from contributions and revivals.</p><div class="hero-actions"><a class="btn primary" href="#projects">Explore projects <span aria-hidden="true">↘</span></a><a class="btn secondary" href="https://github.com/toppk">View repositories <span aria-hidden="true">↗</span></a></div></div>
+      <div class="hero-art" aria-hidden="true"><svg class="orbit-art" viewBox="0 0 440 350" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="8" y="8" width="424" height="334" rx="8" fill="#122854" stroke="#6A91C2" stroke-opacity=".5"/><path d="M8 256H432M8 279H432M8 302H432M8 325H432" stroke="#547EAF" stroke-opacity=".35"/><path d="M33 256C90 156 170 118 220 118C278 118 354 162 408 256" stroke="#7FD0D3" stroke-opacity=".75"/><path d="M71 256C115 183 165 162 220 162C275 162 329 192 370 256" stroke="#7FD0D3" stroke-opacity=".36"/><circle cx="220" cy="145" r="56" fill="#EF8A2B"/><circle cx="220" cy="145" r="76" stroke="#F6B44C" stroke-opacity=".48"/><circle cx="220" cy="145" r="101" stroke="#9CC0E6" stroke-opacity=".3"/><path d="M220 44V6M321 145H412M119 145H28" stroke="#9CC0E6" stroke-opacity=".32" stroke-dasharray="4 7"/><rect x="47" y="48" width="89" height="32" rx="3" fill="#163A6A" stroke="#6D9CC7"/><circle cx="62" cy="64" r="4" fill="#7FD0D3"/><path d="M74 64H121" stroke="#9CC0E6" stroke-width="2"/><rect x="305" y="75" width="91" height="32" rx="3" fill="#163A6A" stroke="#6D9CC7"/><circle cx="320" cy="91" r="4" fill="#F6B44C"/><path d="M332 91H381" stroke="#9CC0E6" stroke-width="2"/><rect x="58" y="203" width="83" height="32" rx="3" fill="#163A6A" stroke="#6D9CC7"/><circle cx="73" cy="219" r="4" fill="#7FD0D3"/><path d="M85 219H126" stroke="#9CC0E6" stroke-width="2"/><rect x="300" y="209" width="85" height="32" rx="3" fill="#163A6A" stroke="#6D9CC7"/><circle cx="315" cy="225" r="4" fill="#F6B44C"/><path d="M327 225H370" stroke="#9CC0E6" stroke-width="2"/></svg></div>
+    </div>
+    <div class="horizon" aria-hidden="true"></div>
+  </header>
+  <main id="main" class="home-shell">
+    <section id="projects" aria-labelledby="projects-heading"><div class="section-heading"><div><p class="section-eyebrow">Selected work</p><h2 id="projects-heading">Project sites</h2><p class="section-lede">{{LEAD_COUNT}} projects I lead and {{CONTRIBUTION_COUNT}} contributions or revivals. Each of these {{SITE_COUNT}} entries links to its source and public site.</p></div><span class="site-count">{{SITE_COUNT}} destinations <span aria-hidden="true">↗</span></span></div>
+      <div class="project-controls"><div class="filters" role="group" aria-label="Filter projects"><button type="button" data-filter="all" aria-pressed="true">All</button><button type="button" data-filter="tools" aria-pressed="false">Tools</button><button type="button" data-filter="services" aria-pressed="false">Services</button><button type="button" data-filter="systems" aria-pressed="false">Systems</button><button type="button" data-filter="experiments" aria-pressed="false">Experiments</button><button type="button" data-filter="guides" aria-pressed="false">Guides</button></div><label class="search"><span class="sr-only">Search projects</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg><input id="project-search" type="search" placeholder="Search projects" autocomplete="off"></label></div>
+      <section class="project-group" data-project-group aria-labelledby="led-heading"><div class="project-group-heading"><p class="section-eyebrow">Led work</p><h3 id="led-heading">Projects I lead</h3></div><div class="project-grid"><!-- LEAD_PROJECT_CARDS --></div></section>
+      <section class="project-group" data-project-group aria-labelledby="contribution-heading"><div class="project-group-heading"><p class="section-eyebrow">Building on existing work</p><h3 id="contribution-heading">Contributions &amp; revivals</h3><p>Restorations and documentation work with their own histories and communities.</p></div><div class="project-grid"><!-- CONTRIBUTION_CARDS --></div></section><p id="empty" hidden>No projects match that search.</p>
+    </section>
+    <section id="about" class="about-grid" aria-labelledby="about-heading"><div class="about-copy"><p class="section-eyebrow">How I work</p><h2 id="about-heading">Small pieces. Clear edges.</h2><p>I like software that explains itself: concrete interfaces, documentation people can use, and a healthy respect for the machines underneath. The public sites above are the front doors; the code and the rest of the experiments are on GitHub.</p><a class="text-link" href="https://github.com/toppk?tab=repositories">Browse all repositories <span aria-hidden="true">↗</span></a></div><div class="about-links"><a href="https://x.bllue.org/"><span class="link-label">Elsewhere</span><strong>The bllue switchboard</strong><span>Other web properties and, on the Foundation network, a few local neighbors.</span><span class="link-arrow" aria-hidden="true">↗</span></a><a href="https://github.com/toppk/toppk.github.io"><span class="link-label">Source</span><strong>This directory</strong><span>The source and project catalog for this page.</span><span class="link-arrow" aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer class="home-footer"><div class="footer-inner"><span>toppk <span class="footer-mark">✳</span> Projects &amp; systems</span><span>Published sites verified October 2026 · <a href="https://github.com/toppk/toppk.github.io">View source</a></span></div></footer>
+  <script src="./theme/horizon.js" defer></script><script src="./home.js" defer></script>
+</body>
+</html>
