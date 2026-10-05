@@ -1,4 +1,5 @@
-# Public portfolio only. Never add private repository names or descriptions here.
+# Authoritative public portfolio. tools/publish-pages.py validates and copies
+# this catalog into toppk.github.io. Only public project data belongs here.
 # repo_description mirrors GitHub About; branding_description is the page copy.
 # pages_enabled records GitHub Pages metadata, even when site_url is external.
 # published controls the public directory; status and type describe the work.
