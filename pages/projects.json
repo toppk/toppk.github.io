@@ -52,6 +52,24 @@
       "type": "service"
     },
     {
+      "branding_description": "An interactive pixel-art neighborhood bar run by Chickenbot.",
+      "category": "Experiments",
+      "name": "chickenbot.si",
+      "pages_enabled": false,
+      "published": true,
+      "repo_description": "chickenbot's bar",
+      "role": "lead",
+      "site_url": "https://chickenbot.si/",
+      "status": "active",
+      "symbol": "◉",
+      "tags": [
+        "web",
+        "pixel-art",
+        "interactive"
+      ],
+      "type": "application"
+    },
+    {
       "branding_description": "A safety-minded command line for Trello and Tailscale.",
       "category": "Tools",
       "name": "omni",
