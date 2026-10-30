@@ -157,6 +157,24 @@
       "type": "service"
     },
     {
+      "branding_description": "CC2650 SensorTag beacon firmware and a Python listener for its readings.",
+      "category": "Systems",
+      "name": "sensortag",
+      "pages_enabled": false,
+      "published": false,
+      "repo_description": "Coin-cell BLE beacon firmware for the TI CC2650 SensorTag, built and flashed from Linux.",
+      "role": "lead",
+      "status": "maintenance",
+      "symbol": "◉",
+      "tags": [
+        "firmware",
+        "ble",
+        "library",
+        "cli"
+      ],
+      "type": "application"
+    },
+    {
       "branding_description": "Exploring daylight, time zones, and the design of the clock.",
       "category": "Experiments",
       "name": "tzwars",
