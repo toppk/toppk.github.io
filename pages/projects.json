@@ -192,6 +192,24 @@
       "type": "research"
     },
     {
+      "branding_description": "A location-aware Moon renderer using NASA imagery for websites and dashboards.",
+      "category": "Tools",
+      "name": "lalune",
+      "pages_enabled": true,
+      "published": true,
+      "repo_description": "A Moon renderer using NASA imagery and location-aware astronomy.",
+      "role": "lead",
+      "site_url": "https://toppk.github.io/lalune/",
+      "status": "active",
+      "symbol": "☾",
+      "tags": [
+        "astronomy",
+        "web",
+        "npm"
+      ],
+      "type": "library"
+    },
+    {
       "branding_description": "Matt Chapman's Window Managers for X, restored and republished.",
       "category": "Guides",
       "name": "xwinman",
