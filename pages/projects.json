@@ -175,6 +175,25 @@
       "type": "application"
     },
     {
+      "branding_description": "A reviewable toolkit for btrfs and ZFS snapshots and encrypted archive disks.",
+      "category": "Systems",
+      "name": "saveme",
+      "pages_enabled": true,
+      "published": true,
+      "repo_description": "data management tool:  disk partitioning, snapshot management, backups. supports both zfs and btrfs.  Integrated capabilities, simple and transparent execution, for admins and users alike.  Security and safety are a design goal.",
+      "role": "lead",
+      "site_url": "https://toppk.github.io/saveme/",
+      "status": "active",
+      "symbol": "⟲",
+      "tags": [
+        "storage",
+        "snapshots",
+        "encryption",
+        "cli"
+      ],
+      "type": "application"
+    },
+    {
       "branding_description": "Exploring daylight, time zones, and the design of the clock.",
       "category": "Experiments",
       "name": "tzwars",
