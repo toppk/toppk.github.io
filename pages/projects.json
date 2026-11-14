@@ -194,6 +194,25 @@
       "type": "application"
     },
     {
+      "branding_description": "A local mail archive that preserves every copy and makes mail searchable for people and agents.",
+      "category": "Tools",
+      "name": "munchymail",
+      "pages_enabled": true,
+      "published": true,
+      "repo_description": "A personal mail archive that keeps every copy of every message, read-only from its sources, searchable by people and AI agents.",
+      "role": "lead",
+      "site_url": "https://toppk.github.io/munchymail/",
+      "status": "active",
+      "symbol": "✉",
+      "tags": [
+        "mail",
+        "archive",
+        "search",
+        "cli"
+      ],
+      "type": "application"
+    },
+    {
       "branding_description": "Exploring daylight, time zones, and the design of the clock.",
       "category": "Experiments",
       "name": "tzwars",
